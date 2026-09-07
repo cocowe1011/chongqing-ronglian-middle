@@ -66,6 +66,16 @@ public class OrderInfo {
     private Double analysisTime;
 
     /**
+    * 预热房编号（选中订单执行时设定，编号1~12）
+    */
+    private String preheatRoom;
+
+    /**
+    * 预热时间（单位：小时，支持一位小数，选中订单执行时设定）
+    */
+    private Double preheatTime;
+
+    /**
     * 订单状态：0=未开始、1=执行中、2=已完成
     */
     private Integer orderStatus;

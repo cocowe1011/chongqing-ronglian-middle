@@ -12,6 +12,8 @@
         <result property="orderQuantity" column="order_quantity" jdbcType="INTEGER"/>
         <result property="destination" column="destination" jdbcType="VARCHAR"/>
         <result property="analysisTime" column="analysis_time" jdbcType="DECIMAL"/>
+        <result property="preheatRoom" column="preheat_room" jdbcType="VARCHAR"/>
+        <result property="preheatTime" column="preheat_time" jdbcType="DECIMAL"/>
         <result property="orderStatus" column="order_status" jdbcType="INTEGER"/>
         <result property="loadedQuantity" column="loaded_quantity" jdbcType="INTEGER"/>
         <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
@@ -36,6 +38,8 @@
             order_quantity,
             destination,
             analysis_time,
+            preheat_room,
+            preheat_time,
             order_status,
             loaded_quantity,
             create_time,
